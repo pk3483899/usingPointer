@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int i,arr[5] = {1,2,3,5,4};
+   for(i=0;i<=4;i++)
+   {
+   int *ptr = &arr[i];
+   
+   cout<<endl<< *ptr;
+   }
+   return 0;
+}
